@@ -1,4 +1,4 @@
-# Global Variables (Prompt Two and Question Two)
+# Global Variables
 names <- c("Mount Haystack", "Mount Skylight", "Dix Mountain", "Gray Peak")
 elevation_ft <- c(4960, 4926, 4857, 4840)
 climb_ascent_ft <- c(3570, 4265, 2800, 4178)
