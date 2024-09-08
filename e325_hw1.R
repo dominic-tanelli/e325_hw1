@@ -11,19 +11,19 @@ high_peaks <- data.frame('Name' = names,
 
 question_three <- function() {
   longest_round_trip_row <- high_peaks[which.max(high_peaks$`Round Trip Length (mi)`), ]
-  print("Question Three Answer:")
-  longest_round_trip_row
+  cat("\nQuestion Three Answer: \n")
+  print(longest_round_trip_row)
 }
 
 question_one <- function() {
   ft_to_m <- 0.3048
   elevation_m <- elevation_ft * ft_to_m
-  print(paste("Question One Answer:", paste(elevation_m, collapse = " ")))
+  cat("\nQuestion One Answer:", paste(elevation_m, collapse = " "), "\n")
 }
 
 homework <- function() {
   question_one()
-  print("Question Two Answer: See Word PDF")
+  cat("\nQuestion Two Answer: See Word PDF\n")
   question_three()
 }
 
@@ -32,11 +32,11 @@ prompt_three <- function() {
   conversion_factor <- 9/5
   water_freezing_point <- 32
   degrees_fahrenheit <- (degrees_celsius * conversion_factor) + water_freezing_point
-  print(paste("Prompt Three Answer:", paste(degrees_fahrenheit, collapse = " ")))
+  cat("\nPrompt Three Answer:", paste(degrees_fahrenheit, collapse = " "), "\n")
 }
 
 prompt_two <- function() {
-  print("Prompt Two Answer:")
+  cat("\nPrompt Two Answer: \n")
   print(high_peaks)
 }
 
@@ -44,7 +44,7 @@ prompt_one <- function() {
   avg_snow_depth_in <- c(2.5, 3, 5, 4.5)
   in_to_cm <- 2.54
   avg_snow_depth_cm <- avg_snow_depth_in * in_to_cm
-  print(paste("Prompt One Answer:", paste(avg_snow_depth_cm, collapse = " ")))
+  cat("Prompt One Answer:", paste(avg_snow_depth_cm, collapse = " "), "\n")
 }
 
 in_class_prompts <- function() {
