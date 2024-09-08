@@ -42,9 +42,10 @@ prompt_two <- function() {
 
 prompt_one <- function() {
   avg_snow_depth_in <- c(2.5, 3, 5, 4.5)
+  cat("Prompt One Answer (Vector of Observations [in inches]):", paste(avg_snow_depth_in, collapse = ", "), "\n")
   in_to_cm <- 2.54
   avg_snow_depth_cm <- avg_snow_depth_in * in_to_cm
-  cat("Prompt One Answer:", paste(avg_snow_depth_cm, collapse = ", "), "\n")
+  cat("\nPrompt One Answer (Vector of Observations [in centimeters]):", paste(avg_snow_depth_cm, collapse = ", "), "\n")
 }
 
 in_class_prompts <- function() {
