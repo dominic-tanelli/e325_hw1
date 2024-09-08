@@ -18,7 +18,7 @@ question_three <- function() {
 question_one <- function() {
   ft_to_m <- 0.3048
   elevation_m <- elevation_ft * ft_to_m
-  cat("\nQuestion One Answer:", paste(elevation_m, collapse = " "), "\n")
+  cat("\nQuestion One Answer:", paste(elevation_m, collapse = ", "), "\n")
 }
 
 homework <- function() {
@@ -32,7 +32,7 @@ prompt_three <- function() {
   conversion_factor <- 9/5
   water_freezing_point <- 32
   degrees_fahrenheit <- (degrees_celsius * conversion_factor) + water_freezing_point
-  cat("\nPrompt Three Answer:", paste(degrees_fahrenheit, collapse = " "), "\n")
+  cat("\nPrompt Three Answer:", paste(degrees_fahrenheit, collapse = ", "), "\n")
 }
 
 prompt_two <- function() {
@@ -44,7 +44,7 @@ prompt_one <- function() {
   avg_snow_depth_in <- c(2.5, 3, 5, 4.5)
   in_to_cm <- 2.54
   avg_snow_depth_cm <- avg_snow_depth_in * in_to_cm
-  cat("Prompt One Answer:", paste(avg_snow_depth_cm, collapse = " "), "\n")
+  cat("Prompt One Answer:", paste(avg_snow_depth_cm, collapse = ", "), "\n")
 }
 
 in_class_prompts <- function() {
