@@ -46,3 +46,6 @@ cat("\nQuestion 2 Answer: See Word PDF\n")
 longest_round_trip_row <- high_peaks[which.max(high_peaks$`Round Trip Length (mi)`), ]
 cat("\nQuestion 3 Answer: \n")
 print(longest_round_trip_row)
+
+# Question 4
+cat("\nQuestion 4 Answer: See Word PDF\n")
